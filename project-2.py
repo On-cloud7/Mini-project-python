@@ -35,4 +35,13 @@ elif user_choice == "rock":
     else:
         print("rock wins : user wins")
         
-
+elif user_choice == "paper":
+    if comp_choice == "scissor":
+        print("scissor wins : computer wins")
+    else:
+        print("paper wins : user wins")
+elif user_choice == "scissor":
+    if comp_choice == "rock":
+        print("rock wins : computer wins")
+    else:
+        print("scissor wins : user wins")
